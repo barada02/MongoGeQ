@@ -3,39 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MongoDB FastAPI Demo</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Simple FastAPI Demo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>MongoDB FastAPI Demo</h1>
+        <h1>Simple FastAPI Demo</h1>
+        
+        <div class="message-container">
+            <h2>Default Message</h2>
+            <div id="defaultMessage" class="message-box">Loading message...</div>
+            <button id="getMessageBtn">Get Default Message</button>
+        </div>
         
         <div class="form-container">
-            <h2>Add New Item</h2>
-            <form id="itemForm">
+            <h2>Send Custom Message</h2>
+            <form id="messageForm">
                 <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" required></textarea>
                 </div>
-                <div class="form-group">
-                    <label for="description">Description:</label>
-                    <textarea id="description" name="description"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="price">Price:</label>
-                    <input type="number" id="price" name="price" step="0.01" required>
-                </div>
-                <button type="submit">Add Item</button>
+                <button type="submit">Send Message</button>
             </form>
         </div>
         
-        <div class="items-container">
-            <h2>Items List</h2>
-            <button id="refreshBtn">Refresh List</button>
-            <div id="itemsList"></div>
+        <div class="response-container">
+            <h2>Server Response</h2>
+            <div id="responseMessage" class="message-box">No response yet</div>
         </div>
     </div>
     
-    <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,80 +1,66 @@
 document.addEventListener('DOMContentLoaded', function() {
     const API_URL = 'http://localhost:8000';
-    const itemForm = document.getElementById('itemForm');
-    const itemsList = document.getElementById('itemsList');
-    const refreshBtn = document.getElementById('refreshBtn');
+    const messageForm = document.getElementById('messageForm');
+    const defaultMessage = document.getElementById('defaultMessage');
+    const responseMessage = document.getElementById('responseMessage');
+    const getMessageBtn = document.getElementById('getMessageBtn');
     
-    // Load items when page loads
-    fetchItems();
+    // Get default message when page loads
+    getDefaultMessage();
     
     // Event listeners
-    itemForm.addEventListener('submit', addItem);
-    refreshBtn.addEventListener('click', fetchItems);
+    messageForm.addEventListener('submit', sendMessage);
+    getMessageBtn.addEventListener('click', getDefaultMessage);
     
-    // Fetch all items from the API
-    function fetchItems() {
-        fetch(`${API_URL}/items`)
+    // Get default message from the API
+    function getDefaultMessage() {
+        defaultMessage.textContent = 'Loading message...';
+        
+        fetch(`${API_URL}/message`)
             .then(response => response.json())
             .then(data => {
-                displayItems(data);
+                defaultMessage.textContent = data.message;
             })
             .catch(error => {
-                console.error('Error fetching items:', error);
-                itemsList.innerHTML = '<p>Error loading items. Please try again later.</p>';
+                console.error('Error fetching message:', error);
+                defaultMessage.textContent = 'Error loading message. Please try again.';
             });
     }
     
-    // Display items in the list
-    function displayItems(items) {
-        if (items.length === 0) {
-            itemsList.innerHTML = '<p>No items found. Add some items!</p>';
+    // Send custom message to the API
+    function sendMessage(e) {
+        e.preventDefault();
+        
+        const messageContent = document.getElementById('message').value;
+        
+        if (!messageContent.trim()) {
+            responseMessage.textContent = 'Please enter a message';
             return;
         }
         
-        let html = '';
-        items.forEach(item => {
-            html += `
-                <div class="item-card">
-                    <h3>${item.name}</h3>
-                    <p>${item.description || 'No description'}</p>
-                    <p class="price">$${item.price.toFixed(2)}</p>
-                    <small>ID: ${item._id}</small>
-                </div>
-            `;
-        });
-        
-        itemsList.innerHTML = html;
-    }
-    
-    // Add a new item
-    function addItem(e) {
-        e.preventDefault();
-        
-        const name = document.getElementById('name').value;
-        const description = document.getElementById('description').value;
-        const price = parseFloat(document.getElementById('price').value);
-        
-        const newItem = {
-            name,
-            description,
-            price
+        const messageData = {
+            content: messageContent
         };
         
-        fetch(`${API_URL}/items`, {
+        responseMessage.textContent = 'Sending message...';
+        
+        fetch(`${API_URL}/message`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(newItem)
+            body: JSON.stringify(messageData)
         })
         .then(response => response.json())
         .then(data => {
             console.log('Success:', data);
-            itemForm.reset();
-            fetchItems();
+            responseMessage.textContent = `Server received: "${data.received}"
+Status: ${data.status}`;
+            messageForm.reset();
         })
         .catch(error => {
-            console.error('Error adding item:', error);
+            console.error('Error sending message:', error);
+            responseMessage.textContent = 'Error sending message. Please try again.';
         });
     }
 });
