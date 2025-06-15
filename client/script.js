@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const API_URL = 'http://localhost:8000';
+    // Use environment variable if defined, otherwise fallback to localhost
+    // This will be replaced by a build step in Cloud Run
+    const API_URL = window.API_URL || 'http://localhost:8000';
     const messageForm = document.getElementById('messageForm');
     const defaultMessage = document.getElementById('defaultMessage');
     const responseMessage = document.getElementById('responseMessage');

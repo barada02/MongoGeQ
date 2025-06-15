@@ -1,0 +1,67 @@
+steps:
+# Build the server image
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/$PROJECT_ID/mongogeq-server:$COMMIT_SHA', './server']
+
+# Build the client image
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/$PROJECT_ID/mongogeq-client:$COMMIT_SHA', './client']
+
+# Push the server image to Container Registry
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/mongogeq-server:$COMMIT_SHA']
+
+# Push the client image to Container Registry
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['push', 'gcr.io/$PROJECT_ID/mongogeq-client:$COMMIT_SHA']
+
+# Deploy server image to Cloud Run
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: gcloud
+  args:
+  - 'run'
+  - 'deploy'
+  - 'mongogeq-server'
+  - '--image'
+  - 'gcr.io/$PROJECT_ID/mongogeq-server:$COMMIT_SHA'
+  - '--region'
+  - 'us-central1'
+  - '--platform'
+  - 'managed'
+  - '--allow-unauthenticated'
+
+# Deploy client image to Cloud Run
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: gcloud
+  args:
+  - 'run'
+  - 'deploy'
+  - 'mongogeq-client'
+  - '--image'
+  - 'gcr.io/$PROJECT_ID/mongogeq-client:$COMMIT_SHA'
+  - '--region'
+  - 'us-central1'
+  - '--platform'
+  - 'managed'
+  - '--allow-unauthenticated'
+
+# Set environment variable for client to communicate with server
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  entrypoint: gcloud
+  args:
+  - 'run'
+  - 'services'
+  - 'update'
+  - 'mongogeq-client'
+  - '--region'
+  - 'us-central1'
+  - '--platform'
+  - 'managed'
+  - '--set-env-vars'
+  - 'API_URL=https://mongogeq-server-[URL-ID].run.app'
+
+images:
+- 'gcr.io/$PROJECT_ID/mongogeq-server:$COMMIT_SHA'
+- 'gcr.io/$PROJECT_ID/mongogeq-client:$COMMIT_SHA'
+
+# Note: Replace [URL-ID] in API_URL with the actual URL assigned by Cloud Run after the first deployment
