@@ -10,7 +10,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose is optional in Cloud Run, but helps documentation
-EXPOSE 8000
+#EXPOSE 8000
 
 # CMD uses the PORT provided by Cloud Run
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "${PORT}"]
