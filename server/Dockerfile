@@ -2,15 +2,15 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-# Copy requirements first for better caching
+# Copy requirements first for caching
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application
+# Copy the entire app
 COPY . .
 
-# Expose the port the app runs on
+# Expose is optional in Cloud Run, but helps documentation
 EXPOSE 8000
 
-# Command to run the application
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+# CMD uses the PORT provided by Cloud Run
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "${PORT}"]
