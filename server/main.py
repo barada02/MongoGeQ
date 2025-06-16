@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI,HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import httpx
@@ -52,3 +52,28 @@ async def get_dog_breeds():
         return response.json()
     else:
         return {"error": "Failed to fetch dog breeds"}
+
+
+# Vertex ai access 
+import vertexai
+from vertexai.preview.language_models import TextEmbeddingModel
+
+
+PROJECT_ID = os.environ.get("PROJECT_ID") #Get project id from environment variable
+REGION = os.environ.get("REGION", "us-central1")  # Default to us-central1 if not set
+
+
+if not PROJECT_ID:
+    raise ValueError("PROJECT_ID environment variable must be set.")
+
+vertexai.init(project=PROJECT_ID, location=REGION)
+
+model = TextEmbeddingModel.from_pretrained("gemini-embedding-001")
+
+@app.post("/embeddings")  
+async def get_embedding(text_input: Message):
+    try:
+        embeddings = model.get_embeddings([text_input.content])
+        return {"embedding": embeddings[0].values}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
