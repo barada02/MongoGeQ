@@ -27,3 +27,7 @@ async def get_default_message():
 @app.post("/message")
 async def create_message(message: Message):
     return {"received": message.content, "status": "Message received successfully!"}
+
+@app.get("/devtest")
+async def returnDev():
+    return {"message": "Hi this is for dev testing"}
