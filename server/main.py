@@ -41,7 +41,7 @@ async def create_message(message: Message):
 async def returnDev():
     return {"message": "Hi this is for dev testing"}
 
-@app.get("/dog-breeds")
+@app.get("/dogs")
 async def get_dog_breeds():
     url = dogapi
 
