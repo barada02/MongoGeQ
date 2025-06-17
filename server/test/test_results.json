@@ -1,0 +1,1746 @@
+[
+    {
+        "id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+        "content": "While bismuth compounds (Pepto-Bismol) decreased the number of bowel movements in those with travelers' diarrhea, they do not decrease the length of illness.[91] Anti-motility agents like loperamide are also effective at reducing the number of stools but not the duration of disease.[8] These agents should be used only if bloody diarrhea is not present.[92]\n\nDiosmectite, a natural aluminomagnesium silicate clay, is effective in alleviating symptoms of acute diarrhea in children,[93] and also has some effects in chronic functional diarrhea, radiation-induced diarrhea, and chemotherapy-induced diarrhea.[45] Another absorbent agent used for the treatment of mild diarrhea is kaopectate.\n\nRacecadotril an antisecretory medication may be used to treat diarrhea in children and adults.[86] It has better tolerability than loperamide, as it causes less constipation and flatulence.[94]",
+        "annotations": [
+            {
+                "id": "0825a1bf-6a6e-4fa2-be77-8d104701eaed",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 371,
+                "start": 360,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "Medicine",
+                "value": "Diosmectite",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:24:32.098000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "0825a1bf-6a6e-4fa2-be77-8d104701eaed",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "145f62b1-bbf5-42f1-8ad5-9c7e08337bf0",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 408,
+                "start": 383,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "Medicine",
+                "value": "aluminomagnesium silicate",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:24:43.692000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "145f62b1-bbf5-42f1-8ad5-9c7e08337bf0",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "243efeb2-723f-4be4-933c-fbbf7e0f9903",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 112,
+                "start": 104,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "MedicalCondition",
+                "value": "diarrhea",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:24:09.423000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "243efeb2-723f-4be4-933c-fbbf7e0f9903",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "281f49d3-879a-4409-b09e-4cfae019af16",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 689,
+                "start": 679,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "Medicine",
+                "value": "kaopectate",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:25:38.366000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "281f49d3-879a-4409-b09e-4cfae019af16",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "32fdf9e7-63f7-442a-8e25-f08ea4ad94d5",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 23,
+                "start": 6,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "Medicine",
+                "value": "bismuth compounds",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:23:46.721000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "32fdf9e7-63f7-442a-8e25-f08ea4ad94d5",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "392094d2-febf-4074-a2ca-4c0082f4e5b8",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 37,
+                "start": 25,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "Medicine",
+                "value": "Pepto-Bismol",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:23:58.861000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "392094d2-febf-4074-a2ca-4c0082f4e5b8",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "450b8c30-cf2e-4774-96d9-58b4160bea38",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 470,
+                "start": 461,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "MedicalCondition",
+                "value": "diarrhea ",
+                "correct": null,
+                "human_annotations": [],
+                "model_annotations": []
+            },
+            {
+                "id": "6b73f683-7130-4e16-bcc2-e3cc8cf89f4d",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 589,
+                "start": 577,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "Medicine",
+                "value": "chemotherapy",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:25:24.179000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "6b73f683-7130-4e16-bcc2-e3cc8cf89f4d",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "74574b7f-d535-48e1-8651-2708adcfe453",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 865,
+                "start": 853,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "MedicalCondition",
+                "value": "constipation",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:26:31.676000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "74574b7f-d535-48e1-8651-2708adcfe453",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "7572ab8e-ae99-400c-b4ab-ed46fbc9f97e",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 198,
+                "start": 188,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "Medicine",
+                "value": "loperamide",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:24:17.680000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "7572ab8e-ae99-400c-b4ab-ed46fbc9f97e",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "800e6c6c-0bfb-4819-a25a-34f759753457",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 762,
+                "start": 754,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "MedicalCondition",
+                "value": "diarrhea",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:26:07.368000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "800e6c6c-0bfb-4819-a25a-34f759753457",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "8214556a-7584-4d9b-86cd-5e09137ad904",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 880,
+                "start": 870,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "MedicalCondition",
+                "value": "flatulence",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:26:41.322000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "8214556a-7584-4d9b-86cd-5e09137ad904",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "98968e14-6756-4174-9d3d-7abd58b3aa34",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 833,
+                "start": 823,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "Medicine",
+                "value": "loperamide",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:26:12.759000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "98968e14-6756-4174-9d3d-7abd58b3aa34",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "a0a03c7b-cfad-41ee-9f5c-f8a802475994",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 853,
+                "start": 852,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "MedicalCondition",
+                "value": " ",
+                "correct": null,
+                "human_annotations": [],
+                "model_annotations": []
+            },
+            {
+                "id": "bfbddfd4-38aa-43a7-9366-24c95829ac8c",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 469,
+                "start": 461,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "MedicalCondition",
+                "value": "diarrhea",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:25:06.921000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "bfbddfd4-38aa-43a7-9366-24c95829ac8c",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "d7d68c18-0d8e-4547-a2fa-81fdcaf3080e",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 543,
+                "start": 535,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "MedicalCondition",
+                "value": "diarrhea",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:25:12.203000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "d7d68c18-0d8e-4547-a2fa-81fdcaf3080e",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "ee956220-42a4-4a91-b9f0-75019c4f5dd9",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 704,
+                "start": 692,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "Medicine",
+                "value": "Racecadotril",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:25:56.503000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "ee956220-42a4-4a91-b9f0-75019c4f5dd9",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "f04a6b7e-8904-405c-9301-e4543238b7a5",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 571,
+                "start": 563,
+                "example_id": "18c2f619-f102-452f-ab81-d26f7e283ffe",
+                "tag_name": "MedicalCondition",
+                "value": "diarrhea",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:25:18.043000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "f04a6b7e-8904-405c-9301-e4543238b7a5",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            }
+        ],
+        "metadata": {},
+        "score": 0.765738844871521
+    },
+    {
+        "id": "487c93e3-0d45-4088-a378-cf3a01c8953d",
+        "content": "Diarrhea, also spelled diarrhoea, is the condition of having at least three loose, liquid, or watery bowel movements each day.[2] It often lasts for a few days and can result in dehydration due to fluid loss.[2] Signs of dehydration often begin with loss of the normal stretchiness of the skin and irritable behaviour.[2] This can progress to decreased urination, loss of skin color, a fast heart rate, and a decrease in responsiveness as it becomes more severe.[2] Loose but non-watery stools in babies who are exclusively breastfed, however, are normal.[2]",
+        "annotations": [
+            {
+                "id": "28601a42-c8a9-44e2-aeea-8939cb1db1a9",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 382,
+                "start": 364,
+                "example_id": "487c93e3-0d45-4088-a378-cf3a01c8953d",
+                "tag_name": "MedicalCondition",
+                "value": "loss of skin color",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:23:08.961000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "28601a42-c8a9-44e2-aeea-8939cb1db1a9",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "63722e91-3f62-4951-9159-688448406d2a",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 8,
+                "start": 0,
+                "example_id": "487c93e3-0d45-4088-a378-cf3a01c8953d",
+                "tag_name": "MedicalCondition",
+                "value": "Diarrhea",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:22:23.535000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "63722e91-3f62-4951-9159-688448406d2a",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "78c60aa6-bfee-46b4-bab3-0e5566551bca",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 116,
+                "start": 94,
+                "example_id": "487c93e3-0d45-4088-a378-cf3a01c8953d",
+                "tag_name": "MedicalCondition",
+                "value": "watery bowel movements",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:22:35.157000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "78c60aa6-bfee-46b4-bab3-0e5566551bca",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "81f7b1d3-ac4f-4239-aef4-eb1402d66257",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 189,
+                "start": 178,
+                "example_id": "487c93e3-0d45-4088-a378-cf3a01c8953d",
+                "tag_name": "MedicalCondition",
+                "value": "dehydration",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:22:56.913000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "81f7b1d3-ac4f-4239-aef4-eb1402d66257",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "dec80dca-33ab-4392-8d72-f0524695992f",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 232,
+                "start": 221,
+                "example_id": "487c93e3-0d45-4088-a378-cf3a01c8953d",
+                "tag_name": "MedicalCondition",
+                "value": "dehydration",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:22:49.804000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "dec80dca-33ab-4392-8d72-f0524695992f",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "dff63591-717a-4de7-8cc3-70d8978036f0",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 32,
+                "start": 23,
+                "example_id": "487c93e3-0d45-4088-a378-cf3a01c8953d",
+                "tag_name": "MedicalCondition",
+                "value": "diarrhoea",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:22:26.974000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "dff63591-717a-4de7-8cc3-70d8978036f0",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "e7c60bff-6087-43f1-91e8-3436af311ceb",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 435,
+                "start": 409,
+                "example_id": "487c93e3-0d45-4088-a378-cf3a01c8953d",
+                "tag_name": "MedicalCondition",
+                "value": "decrease in responsiveness",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:23:36.374000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "e7c60bff-6087-43f1-91e8-3436af311ceb",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "ee1170b3-1a3c-422c-97a3-aa6acf2e91b7",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 401,
+                "start": 386,
+                "example_id": "487c93e3-0d45-4088-a378-cf3a01c8953d",
+                "tag_name": "MedicalCondition",
+                "value": "fast heart rate",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:23:16.223000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "ee1170b3-1a3c-422c-97a3-aa6acf2e91b7",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            }
+        ],
+        "metadata": {},
+        "score": 0.7636145353317261
+    },
+    {
+        "id": "f5359e0d-4d4a-4707-95a3-4c627fc4a83b",
+        "content": "The goals of treatment are to reduce pain, decrease inflammation, and improve a person's overall functioning.[5] This may be helped by balancing rest and exercise, the use of splints and braces, or the use of assistive devices.[1][6][7] Pain medications, steroids, and NSAIDs are frequently used to help with symptoms.[1] Disease-modifying antirheumatic drugs (DMARDs), such as hydroxychloroquine and methotrexate, may be used to try to slow the progression of disease.[1] Biological DMARDs may be used when disease does not respond to other treatments.[8] However, they may have a greater rate of adverse effects.[9] Surgery to repair, replace, or fuse joints may help in certain situations.[1] Most alternative medicine treatments are not supported by evidence.[10][11]",
+        "annotations": [
+            {
+                "id": "10411ff5-e343-40bf-95d5-39cd1cb16060",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 413,
+                "start": 401,
+                "example_id": "f5359e0d-4d4a-4707-95a3-4c627fc4a83b",
+                "tag_name": "Medicine",
+                "value": "methotrexate",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:00:09.929000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "10411ff5-e343-40bf-95d5-39cd1cb16060",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "356b1994-f773-4721-afc2-629174c66dd1",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 396,
+                "start": 378,
+                "example_id": "f5359e0d-4d4a-4707-95a3-4c627fc4a83b",
+                "tag_name": "Medicine",
+                "value": "hydroxychloroquine",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:00:15.443000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "356b1994-f773-4721-afc2-629174c66dd1",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "597312cd-ea97-45ae-b9b2-78a56379bac8",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 490,
+                "start": 473,
+                "example_id": "f5359e0d-4d4a-4707-95a3-4c627fc4a83b",
+                "tag_name": "Medicine",
+                "value": "Biological DMARDs",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-20T23:59:54.267000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "597312cd-ea97-45ae-b9b2-78a56379bac8",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "fab6e3b8-827e-4faf-913e-77d15a05460b",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 263,
+                "start": 255,
+                "example_id": "f5359e0d-4d4a-4707-95a3-4c627fc4a83b",
+                "tag_name": "Medicine",
+                "value": "steroids",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:00:25.293000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "fab6e3b8-827e-4faf-913e-77d15a05460b",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            }
+        ],
+        "metadata": {},
+        "score": 0.7607293128967285
+    },
+    {
+        "id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+        "content": "The following drugs are considered as DMARDs: methotrexate, hydroxychloroquine, sulfasalazine, leflunomide, TNF-alpha inhibitors (certolizumab, infliximab and etanercept), abatacept, and anakinra. Rituximab and tocilizumab are monoclonal antibodies and are also DMARDs.[8] Use of tocilizumab is associated with a risk of increased cholesterol levels.[87]\n\nHydroxychloroquine, apart from its low toxicity profile, is considered effective in the moderate RA treatment.[88]\n\nThe most commonly used agent is methotrexate with other frequently used agents including sulfasalazine and leflunomide.[8] Leflunomide is effective when used from 6–12 months, with similar effectiveness to methotrexate when used for 2 years.[89] Sulfasalazine also appears to be most effective in the short-term treatment of rheumatoid arthritis.[90] Sodium aurothiomalate (gold) and cyclosporin are less commonly used due to more common adverse effects.[8] However, cyclosporin was found to be effective in the progressive RA when used up to one year.[91] Agents may be used in combinations however, people may experience greater side effects.[8][92] Methotrexate is the most important and useful DMARD and is usually the first treatment.[8][5][93] A combined approach with methotrexate and biologics improves ACR50, HAQ scores and RA remission rates.[94] Triple therapy consisting of methotrexate, sulfasalazine and hydroxychloroquine may also effectively control disease activity.[95] Adverse effects should be monitored regularly with toxicity including gastrointestinal, hematologic, pulmonary, and hepatic.[93] Side effects such as nausea, vomiting or abdominal pain can be reduced by taking folic acid.[96]",
+        "annotations": [
+            {
+                "id": "0e370ff5-fee6-45e1-adcb-d5f00fa33b0d",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 1589,
+                "start": 1211,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "MedicalCondition",
+                "value": "[8][5][93] A combined approach with methotrexate and biologics improves ACR50, HAQ scores and RA remission rates.[94] Triple therapy consisting of methotrexate, sulfasalazine and hydroxychloroquine may also effectively control disease activity.[95] Adverse effects should be monitored regularly with toxicity including gastrointestinal, hematologic, pulmonary, and hepatic.[93] ",
+                "correct": null,
+                "human_annotations": [],
+                "model_annotations": []
+            },
+            {
+                "id": "1a836f40-1182-495e-9beb-847402b55407",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 44,
+                "start": 38,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "DMARDs",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:06:01.830000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "1a836f40-1182-495e-9beb-847402b55407",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "1e654ecd-03d2-449a-9c2d-3bc629664151",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 374,
+                "start": 356,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "Hydroxychloroquine",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:08:16.800000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "1e654ecd-03d2-449a-9c2d-3bc629664151",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "26a9596f-b14c-4984-8e95-fe99bdafb307",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 950,
+                "start": 939,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "cyclosporin",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:09:43.395000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "26a9596f-b14c-4984-8e95-fe99bdafb307",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "2ca69e73-3021-4355-96e3-08df2ab00922",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 1639,
+                "start": 1638,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "MedicalCondition",
+                "value": "l",
+                "correct": null,
+                "human_annotations": [],
+                "model_annotations": []
+            },
+            {
+                "id": "384d0a62-0f66-43f0-9152-840caf523e5e",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 1588,
+                "start": 1212,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "MedicalCondition",
+                "value": "8][5][93] A combined approach with methotrexate and biologics improves ACR50, HAQ scores and RA remission rates.[94] Triple therapy consisting of methotrexate, sulfasalazine and hydroxychloroquine may also effectively control disease activity.[95] Adverse effects should be monitored regularly with toxicity including gastrointestinal, hematologic, pulmonary, and hepatic.[93]",
+                "correct": null,
+                "human_annotations": [],
+                "model_annotations": []
+            },
+            {
+                "id": "3b4e7d98-a306-445c-8729-d46fdfe6dcf0",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 269,
+                "start": 262,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "MedicalCondition",
+                "value": "DMARDs.",
+                "correct": null,
+                "human_annotations": [],
+                "model_annotations": []
+            },
+            {
+                "id": "417ebf33-1cc6-41e5-960c-e2e8fe0a2db8",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 78,
+                "start": 60,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "hydroxychloroquine",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:06:26.285000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "417ebf33-1cc6-41e5-960c-e2e8fe0a2db8",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "62225f17-13f4-463d-9bc3-9128d1a1594a",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 731,
+                "start": 718,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "Sulfasalazine",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:09:16.436000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "62225f17-13f4-463d-9bc3-9128d1a1594a",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "65856ef3-af52-472f-a9ac-0ce1e3e84ef5",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 248,
+                "start": 227,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "monoclonal antibodies",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:07:26.273000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "65856ef3-af52-472f-a9ac-0ce1e3e84ef5",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "67f923f2-c27b-4bf0-a7d7-500c544eefd4",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 690,
+                "start": 678,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "methotrexate",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:09:09.912000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "67f923f2-c27b-4bf0-a7d7-500c544eefd4",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "71720586-98ab-493b-aa8e-7abe75575cd4",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 206,
+                "start": 197,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "Rituximab",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:07:11.820000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "71720586-98ab-493b-aa8e-7abe75575cd4",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "877682ce-c33d-4ed8-8abf-7d26c10fff26",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 1385,
+                "start": 1372,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "sulfasalazine",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:11:19.316000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "877682ce-c33d-4ed8-8abf-7d26c10fff26",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "8c5b1a61-6726-4951-bb68-bfdfda751625",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 867,
+                "start": 856,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "cyclosporin",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:09:35.406000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "8c5b1a61-6726-4951-bb68-bfdfda751625",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "8c9e23b0-a9a8-4fb8-b591-388e8aa1c55e",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 169,
+                "start": 159,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "etanercept",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:06:57.063000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "8c9e23b0-a9a8-4fb8-b591-388e8aa1c55e",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "98aef48d-e419-4acc-a171-1ee2c2c236ac",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 142,
+                "start": 130,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "certolizumab",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:07:05.218000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "98aef48d-e419-4acc-a171-1ee2c2c236ac",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "9b29446b-44a0-47b4-92a1-fe23a7317819",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 268,
+                "start": 262,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "DMARDs",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:07:39.195000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "9b29446b-44a0-47b4-92a1-fe23a7317819",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "a011ec96-3e7a-4d5e-a418-2c42340e5d83",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 574,
+                "start": 561,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "sulfasalazine",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:08:40.995000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "a011ec96-3e7a-4d5e-a418-2c42340e5d83",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "a280057a-69cf-45e4-9163-f166dfd70bf6",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 128,
+                "start": 108,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "TNF-alpha inhibitors",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:06:40.559000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "a280057a-69cf-45e4-9163-f166dfd70bf6",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "a99534be-1b93-4a82-9fe0-98e45e3bd7db",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 1680,
+                "start": 1670,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "MedicalCondition",
+                "value": "folic acid",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:11:00.669000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "a99534be-1b93-4a82-9fe0-98e45e3bd7db",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "ad903750-6bfa-4263-b7e5-72b027143625",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 106,
+                "start": 80,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "sulfasalazine, leflunomide",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:06:34.882000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "ad903750-6bfa-4263-b7e5-72b027143625",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "b820f18b-0b97-49e7-b195-cede46ad3d41",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 1616,
+                "start": 1610,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "MedicalCondition",
+                "value": "nausea",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:10:43.280000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "b820f18b-0b97-49e7-b195-cede46ad3d41",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "bc058bb4-041c-46d4-8ea4-c11d7db9c763",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 465,
+                "start": 453,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "RA treatment",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:08:23.760000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "bc058bb4-041c-46d4-8ea4-c11d7db9c763",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "bfd14cf1-5ca4-468d-8883-c661fc128925",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 817,
+                "start": 797,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "MedicalCondition",
+                "value": "rheumatoid arthritis",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:09:30.619000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "bfd14cf1-5ca4-468d-8883-c661fc128925",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "c411923d-519c-4589-a2a5-ec2297cc6f70",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 606,
+                "start": 595,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "Leflunomide",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:09:02.396000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "c411923d-519c-4589-a2a5-ec2297cc6f70",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "d250dbfd-71fb-453b-9577-16ffab4428c7",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 58,
+                "start": 46,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "methotrexate",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:06:08.995000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "d250dbfd-71fb-453b-9577-16ffab4428c7",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "d33766a7-8d00-4140-a6f2-2c6954598166",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 844,
+                "start": 823,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "Sodium aurothiomalate",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:09:24.556000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "d33766a7-8d00-4140-a6f2-2c6954598166",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "d6ed06e2-0182-4c00-96fa-153af6304e37",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 1136,
+                "start": 1124,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "Methotrexate",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:09:56.610000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "d6ed06e2-0182-4c00-96fa-153af6304e37",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "db86a2a0-82e8-4f03-a6c9-6fe7c4af6355",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 1644,
+                "start": 1630,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "MedicalCondition",
+                "value": "abdominal pain",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:10:55.947000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "db86a2a0-82e8-4f03-a6c9-6fe7c4af6355",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "dba256f9-a7e7-4efa-b77c-15d023854d4c",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 590,
+                "start": 579,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "leflunomide",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:08:54.673000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "dba256f9-a7e7-4efa-b77c-15d023854d4c",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "ddc0af7a-87a1-483e-9f5f-15c16e3979e7",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 1370,
+                "start": 1358,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "methotrexate",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:11:10.575000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "ddc0af7a-87a1-483e-9f5f-15c16e3979e7",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "ddc6c6b0-5a7f-477a-96bd-52bdf91763bc",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 1626,
+                "start": 1618,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "vomiting",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:10:47.641000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "ddc6c6b0-5a7f-477a-96bd-52bdf91763bc",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "e6d12ca3-d1fc-4de1-a7e0-559318fd8af0",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 516,
+                "start": 504,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "methotrexate",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:08:35.291000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "e6d12ca3-d1fc-4de1-a7e0-559318fd8af0",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "f5940306-b795-4660-82c9-4f9369b99611",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 154,
+                "start": 144,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "infliximab",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:06:51.761000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "f5940306-b795-4660-82c9-4f9369b99611",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "f64e0fbc-61c8-4234-88e2-570b07aaff20",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 1408,
+                "start": 1390,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "hydroxychloroquine",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:11:25.818000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "f64e0fbc-61c8-4234-88e2-570b07aaff20",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "f718b172-b1c6-4602-9e22-7c03ad8691bc",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 106,
+                "start": 81,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "MedicalCondition",
+                "value": "ulfasalazine, leflunomide",
+                "correct": null,
+                "human_annotations": [],
+                "model_annotations": []
+            },
+            {
+                "id": "faf7794f-e8fe-4605-915a-c35e007760f9",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 222,
+                "start": 211,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "tocilizumab",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:07:16.976000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "faf7794f-e8fe-4605-915a-c35e007760f9",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "fe8a286b-2318-48c6-93a0-d5e3e9589d0c",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 291,
+                "start": 280,
+                "example_id": "20c792c7-0c4b-42d0-8127-0e04113db384",
+                "tag_name": "Medicine",
+                "value": "tocilizumab",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-21T00:07:52.036000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "fe8a286b-2318-48c6-93a0-d5e3e9589d0c",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            }
+        ],
+        "metadata": {},
+        "score": 0.7588333487510681
+    },
+    {
+        "id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+        "content": "Some antidepressants are used as a treatment for social anxiety disorder, but their efficacy is not entirely convincing, as only a small proportion of antidepressants showed some efficacy for this condition. Paroxetine was the first drug to be FDA-approved for this disorder. Its efficacy is considered beneficial, although not everyone responds favorably to the drug. Sertraline and fluvoxamine extended release were later approved for it as well, while escitalopram is used off-label with acceptable efficacy. However, there isn't enough evidence to support citalopram for treating social phobia, and fluoxetine was no better than placebo in clinical trials. SSRIs are used as a first-line treatment for social anxiety, but they don't work for everyone. One alternative would be venlafaxine, which is a SNRI. It showed benefits for social phobia in five clinical trials against placebo, while the other SNRIs are not considered particularly useful for this disorder as many of them didn't undergo testing for it. As of now, it is unclear if duloxetine and desvenlafaxine can provide benefits for social anxiety sufferers. However, another class of antidepressants called MAOIs are considered effective for social anxiety, but they come with many unwanted side effects and are rarely used. Phenelzine was shown to be a good treatment option, but its use is limited by dietary restrictions. Moclobemide is a RIMA and showed mixed results but still got approval in some European countries for social anxiety disorder. TCA antidepressants, such as clomipramine and imipramine, are not considered effective for this anxiety disorder in particular. This leaves out SSRIs such as paroxetine, sertraline and fluvoxamine CR as acceptable and tolerated treatment options for this disorder.[19][20]",
+        "annotations": [
+            {
+                "id": "08d1d5f9-d78e-4b4e-8277-261fc315431f",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 395,
+                "start": 384,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "Medicine",
+                "value": "fluvoxamine",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:56:51.429000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "08d1d5f9-d78e-4b4e-8277-261fc315431f",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "0adbc206-5763-4a07-acfc-1a7043d5a222",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 1112,
+                "start": 1098,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "MedicalCondition",
+                "value": "social anxiety",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:58:03.764000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "0adbc206-5763-4a07-acfc-1a7043d5a222",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "0beff866-a048-4eb6-a871-c6f5c9a53839",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 1697,
+                "start": 1687,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "Medicine",
+                "value": "sertraline",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:59:13.557000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "0beff866-a048-4eb6-a871-c6f5c9a53839",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "1bcd5e62-4a20-4a0e-8bb8-842bbea15ab6",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 72,
+                "start": 49,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "MedicalCondition",
+                "value": "social anxiety disorder",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:56:22.495000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "1bcd5e62-4a20-4a0e-8bb8-842bbea15ab6",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "202489b6-d256-4d9e-a072-a1eefaa1d38d",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 1178,
+                "start": 1173,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "Medicine",
+                "value": "MAOIs",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:58:13.639000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "202489b6-d256-4d9e-a072-a1eefaa1d38d",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "219d8f8d-c7aa-4e11-9185-58ea5006eb32",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 1713,
+                "start": 1702,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "Medicine",
+                "value": "fluvoxamine",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:59:26.960000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "219d8f8d-c7aa-4e11-9185-58ea5006eb32",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "2cec1523-0f1a-4778-935f-30056f1e161c",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 792,
+                "start": 781,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "Medicine",
+                "value": "venlafaxine",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:57:26.801000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "2cec1523-0f1a-4778-935f-30056f1e161c",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "31c44c6c-61aa-4b3e-a976-878b4b08abd9",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 1573,
+                "start": 1563,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "Medicine",
+                "value": "imipramine",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:58:57.908000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "31c44c6c-61aa-4b3e-a976-878b4b08abd9",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "40d2f10f-fde7-4096-b78e-9260c97245ca",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 72,
+                "start": 48,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "MedicalCondition",
+                "value": " social anxiety disorder",
+                "correct": null,
+                "human_annotations": [],
+                "model_annotations": []
+            },
+            {
+                "id": "4950ba35-2f64-45d9-98b4-d9ef3d858b2f",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 613,
+                "start": 603,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "Medicine",
+                "value": "fluoxetine",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:57:15.686000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "4950ba35-2f64-45d9-98b4-d9ef3d858b2f",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "4f33e4cb-b02f-4e7b-94cb-430042ac80b0",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 1685,
+                "start": 1675,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "MedicalCondition",
+                "value": "paroxetine",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:59:20.680000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "4f33e4cb-b02f-4e7b-94cb-430042ac80b0",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "6ddbf29e-7ca0-4f08-b6e1-ffb76f1e1101",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 1629,
+                "start": 1613,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "MedicalCondition",
+                "value": "anxiety disorder",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:59:06.531000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "6ddbf29e-7ca0-4f08-b6e1-ffb76f1e1101",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "8265f8e6-c8b0-4aef-af7c-e13420bd8177",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 379,
+                "start": 369,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "Medicine",
+                "value": "Sertraline",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:56:40.854000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "8265f8e6-c8b0-4aef-af7c-e13420bd8177",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "a1a3c25a-eede-4ec1-b629-8d82267fed7a",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 1301,
+                "start": 1291,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "Medicine",
+                "value": "Phenelzine",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:58:22.588000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "a1a3c25a-eede-4ec1-b629-8d82267fed7a",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "a271c733-1dd3-4542-b772-3a33858d8d38",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 1558,
+                "start": 1546,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "Medicine",
+                "value": "clomipramine",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:58:52.433000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "a271c733-1dd3-4542-b772-3a33858d8d38",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "a27ea0a5-02b8-43f5-afd0-0770a6429dc7",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 1402,
+                "start": 1394,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "MedicalCondition",
+                "value": "lobemide",
+                "correct": null,
+                "human_annotations": [],
+                "model_annotations": []
+            },
+            {
+                "id": "ad4b4509-210e-42e1-ade3-edb354bb1f49",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 848,
+                "start": 835,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "MedicalCondition",
+                "value": "ocial phobia ",
+                "correct": null,
+                "human_annotations": [],
+                "model_annotations": []
+            },
+            {
+                "id": "b87d4d05-3fe1-4a4f-8636-0754b032b3df",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 1112,
+                "start": 1106,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "MedicalCondition",
+                "value": "nxiety",
+                "correct": null,
+                "human_annotations": [],
+                "model_annotations": []
+            },
+            {
+                "id": "c99e490d-c681-45e1-9053-859103d05a94",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 1392,
+                "start": 1391,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "MedicalCondition",
+                "value": "M",
+                "correct": null,
+                "human_annotations": [],
+                "model_annotations": []
+            },
+            {
+                "id": "ea9659d5-ae3e-4b10-b692-a84cfa2ff2a3",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 467,
+                "start": 455,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "Medicine",
+                "value": "escitalopram",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:57:01.825000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "ea9659d5-ae3e-4b10-b692-a84cfa2ff2a3",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "f6b8dac8-4515-41f9-b611-0c67c038c30a",
+                "tag_id": "c06bd022-6ded-44a5-8d90-f17685bb85a1",
+                "end": 1402,
+                "start": 1391,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "Medicine",
+                "value": "Moclobemide",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:58:41.287000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "f6b8dac8-4515-41f9-b611-0c67c038c30a",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            },
+            {
+                "id": "fa1ae1eb-7165-4f7a-a2ed-2557cb6444ef",
+                "tag_id": "03eb3e50-d4d8-4261-a60b-fa5aee5deb4a",
+                "end": 597,
+                "start": 584,
+                "example_id": "556d082e-4879-4ad4-aec9-e7d438eabb9a",
+                "tag_name": "MedicalCondition",
+                "value": "social phobia",
+                "correct": null,
+                "human_annotations": [
+                    {
+                        "timestamp": "2020-03-18T06:57:08.664000Z",
+                        "annotator_id": 1,
+                        "tagged_token_id": "fa1ae1eb-7165-4f7a-a2ed-2557cb6444ef",
+                        "name": "Ashpat123",
+                        "reason": "exploration"
+                    }
+                ],
+                "model_annotations": []
+            }
+        ],
+        "metadata": {},
+        "score": 0.7522022724151611
+    }
+]
