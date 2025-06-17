@@ -1,6 +1,5 @@
 FROM python:3.13-slim
 
-ENV PORT=8080
 WORKDIR /app
 
 # Install dependencies
@@ -20,8 +19,7 @@ USER myuser
 # Add user-local bin to PATH
 ENV PATH="/home/myuser/.local/bin:$PATH"
 
-# Expose port
-EXPOSE ${PORT}
+
 
 # Start server
-CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port ${PORT}"]
+CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port 8080"]
