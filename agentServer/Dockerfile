@@ -1,25 +1,17 @@
-FROM python:3.13-slim
+FROM python:3.10-slim
 
 WORKDIR /app
 
-# Install dependencies
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Create non-root user
-RUN adduser --disabled-password --gecos "" myuser && \
-    chown -R myuser:myuser /app
-
-# Copy application code
+# Copy all code before install
 COPY . .
 
-# Set non-root user
-USER myuser
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Add user-local bin to PATH
-ENV PATH="/home/myuser/.local/bin:$PATH"
-
-
+# (Optional) Create non-root user
+# RUN adduser --disabled-password --gecos "" myuser && chown -R myuser:myuser /app
+# USER myuser
+# ENV PATH="/home/myuser/.local/bin:$PATH"
 
 # Start server
-CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port 8080"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
