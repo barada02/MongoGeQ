@@ -1,6 +1,6 @@
 FROM python:3.13-slim
 
-ENV PORT=8000
+ENV PORT=8080
 WORKDIR /app
 
 # Install dependencies
