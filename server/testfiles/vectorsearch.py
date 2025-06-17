@@ -1,16 +1,18 @@
 import requests
 import pymongo
 from typing import List, Dict
+from dotenv import load_dotenv
 
 import json
 import os
 
+load_dotenv()
 # === CONFIG ===
-MONGODB_URI = "mongodb+srv://kumar:kumar727mongogeq@cluster0.7fote4b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-DB_NAME = "MedicalNER"
-COLLECTION_NAME = "medicine"
-VECTOR_INDEX_NAME = "vector_index"
-EMBEDDING_ENDPOINT = "https://mongogeq-server-testing-253100357465.us-central1.run.app/embeddings"
+MONGODB_URI = os.getenv("MONGODB_URI")
+DB_NAME = os.getenv("DB_NAME")
+COLLECTION_NAME = os.getenv("COLLECTION_NAME")
+VECTOR_INDEX_NAME = os.getenv("VECTOR_INDEX_NAME")
+EMBEDDING_ENDPOINT = os.getenv("EMBEDDING_ENDPOINT")
 
 # === STEP 1: Get embedding from your endpoint ===
 def get_query_embedding(text: str) -> List[float]:
